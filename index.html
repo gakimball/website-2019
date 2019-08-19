@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Geoff Kimball</title>
+    <meta name="description" content="Geoff Kimball is a California-based JavaScript developer working on web and native products.">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+    <style>
+      *,
+      *::before
+      *::after {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      body {
+        font-family: 'DM Serif Text', serif;
+        font-size: 20px;
+        letter-spacing: -1px;
+        background-color: #f5f4f0;
+        color: #444;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+        font-weight: normal;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 620px;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 20%;
+      }
+
+      .drawing-wrapper {
+        flex: 1;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .drawing {
+        max-width: 100%;
+        width: 563px;
+      }
+
+      .title {
+        font-size: 2em;
+        font-weight: normal;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .subtitle {
+        font-style: italic;
+        font-weight: normal;
+        margin-top: 0;
+        margin-bottom: 1em;
+      }
+
+      .heading {
+        font-size: 2em;
+        font-weight: normal;
+        color: #000;
+        text-transform: lowercase;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .links {
+        display: inline;
+        list-style-type: none;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .link {
+        display: inline;
+        color: #951179;
+      }
+
+      .link:not(:last-child)::after {
+        content: ' • ';
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+        color: #444;
+      }
+
+      @media (min-width: 768px) {
+        body {
+          font-size: 30px;
+        }
+      }
+
+      @media (min-aspect-ratio: 1/2) {
+        .container {
+          padding-bottom: 15%;
+        }
+      }
+
+      @media (min-aspect-ratio: 3/2) {
+        .container {
+          max-width: 1200px;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-bottom: 0;
+          flex-flow: row;
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="drawing-wrapper">
+        <img class="drawing" src="me.jpg" alt="">
+      </div>
+      <div>
+        <h1 class="title">Geoff Kimball</h1>
+        <p class="subtitle">JavaScript developer, anxious human</p>
+        <ul class="links">
+          <li class="link">
+            <a href="mailto:geoff@geoffkimball.com">Email</a>
+          </li>
+          <li class="link">
+            <a href="https://github.com/gakimball" target="_blank">GitHub</a>
+          </li>
+          <li class="link">
+            <a href="https://linkedin.com/in/geoff-kimball-2a899b117/" target="_blank">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
