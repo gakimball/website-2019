@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Geoff Kimball</title>
+  <meta name="description" content="JavaScript developer, nervous human">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+  <style>
+    *,
+    *::before,
+    *::after {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+    }
+
+    body {
+      font-family:
+        system-ui,
+        -apple-system,
+        'Segoe UI',
+        'Roboto',
+        'Helvetica',
+        'Arial',
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji';
+      font-size: 16px;
+      background-color: #f5f4f0;
+      color: #333;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #6E2D9E;
+    }
+
+    body {
+      padding: 0 16px;
+    }
+
+    .container {
+      position: relative;
+      max-width: 940px;
+      margin: 0 auto;
+      padding: 16px 0;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      margin-top: 50px;
+      font-size: 30px;
+    }
+
+    .subtitle,
+    h3,
+    a {
+      font-size: 20px;
+    }
+
+    .me {
+      width: 430px;
+      position: absolute;
+      top: 100px;
+      right: 0;
+      border-radius: 16px;
+    }
+
+    p {
+      max-width: 450px;
+    }
+
+    .runes-top {
+      margin-bottom: 10px;
+    }
+
+    .runes-bottom {
+      margin-top: 35px;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        padding: 135px 0;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #333;
+        color: #f5f4f0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img class="me" src="/me.jpg" alt="">
+    <img class="runes-top" src="/runes-top.svg" alt="">
+    {{body}}
+    <img class="runes-bottom" src="/runes-bottom.svg" alt="">
+  </div>
+</body>
+
+</html>

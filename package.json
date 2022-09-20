@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "geoffkimball.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js & serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/website-2019.git"
+  },
+  "author": "Geoff Kimball <geoff@geoffkimball.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/website-2019/issues"
+  },
+  "homepage": "https://github.com/gakimball/website-2019#readme",
+  "dependencies": {
+    "marked": "^4.0.12",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "gemtext": "^0.2.2"
+  }
+}

@@ -1,0 +1,25 @@
+# Geoff Kimball
+JavaScript developer, nervous human
+
+=> mailto://geoff@geoffkimball.com Email
+=> https://github.com/gakimball GitHub
+
+## Work History
+
+### HourStack: developer, 2020–now
+
+HourStack is a web-based time tracking and time management tool. I'm the primary developer on the front-end, working with the team to rebuild the entire app from scratch with a new design, API, and web app. Technologies I work with include React, mobx-state-tree, Next.js, and TypeScript.
+
+### Double Crown: developer, 2019–2020
+
+I managed the codebase for the iOS and Android apps, written in React Native. Technologies I worked with include React, React Native, Apollo, MobX, and mobx-state-tree.
+
+### ueno.: developer, 2019–2020
+
+I managed the codebase for the iOS and Android apps, written in React Native. Technologies I worked with include React, React Native, Apollo, MobX, and mobx-state-tree.
+
+Selected clients: Google, User, Visa, Waze
+
+## About
+
+JavaScript developer versed in `/React( Native)?/`, Node.js, and design systems. Lapsed open source maintainer. Living a slow, quiet life in central California.
